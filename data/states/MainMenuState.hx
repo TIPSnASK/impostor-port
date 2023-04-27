@@ -1,6 +1,8 @@
 // god this is gonna be painful
 
 import flixel.addons.display.FlxBackdrop;
+import funkin.options.OptionsMenu;
+// import funkin.menus.credits.CreditsMain;
 
 var optionShits:Array<String> = ['Story Mode', 'Freeplay', 'Gallery', 'Credits', 'Options', 'Shop', 'Innersloth'];
 var menuShits:FlxTypedGroup;
@@ -135,9 +137,9 @@ function update(elapsed:Float) {
 						case 'Freeplay':
 							FlxG.switchState(new FreeplayState());
 						case 'Credits':
-							FlxG.switchState(new funkin.menus.credits.CreditsMain());
+							// FlxG.switchState(new CreditsMain());
 						case 'Options':
-							FlxG.switchState(new funkin.options.OptionsMenu(false));
+							FlxG.switchState(new OptionsMenu(false));
 					}
 				});
 			}
