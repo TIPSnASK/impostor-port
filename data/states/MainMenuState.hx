@@ -12,6 +12,7 @@ var redImpostor:FlxSprite;
 var greenImpostor:FlxSprite;
 var vignette:FlxSprite;
 var glowyThing:FlxSprite;
+var logo:FlxSprite;
 var canPress:Bool = true;
 function postCreate() {
 	for (i in members) remove(i);
@@ -70,7 +71,7 @@ function postCreate() {
 	glowyThing.visible = false;
 	add(glowyThing);
 
-	var logo:FlxSprite = new FlxSprite(0, 100);
+	logo = new FlxSprite(0, 100);
 	logo.frames = Paths.getSparrowAtlas('menus/logoBumpin');
 	logo.animation.addByPrefix('bump', 'logo bumpin', 24, false);
 	logo.screenCenter();
@@ -81,7 +82,6 @@ function postCreate() {
 	add(logo);
 
 	menuShits = new FlxTypedGroup();
-	add(menuShits);
 
 	for (i in 0...optionShits.length) {
 		var testButton:FlxSprite = new FlxSprite(0, 130);
@@ -146,6 +146,12 @@ function update(elapsed:Float) {
 		}
 		else {i.animation.play('idle', false);}
 	}
+}
+
+function beatHit() {
+	FlxTween.completeTweensOf(logo, ['scale.x', 'scale.y']);
+	logo.scale.set(0.8,0.8);
+	FlxTween.tween(logo, {'scale.x': 0.65, 'scale.y': 0.65}, 0.5, {ease: FlxEase.circOut});
 }
 
 function onChangeItem(event:MenuChangeEvent) event.cancel(false);
