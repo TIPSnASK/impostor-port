@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" camx="-130" icon="impostor" sprite="impostorS" y="105" scale="1" camy="290">
+	<anim x="80" y="-270" anim="impostor idle" name="idle"/>
+
+	<anim x="185" y="-285" anim="impostor left" name="singLEFT"/>
+
+	<anim x="42" y="-242" anim="impostor down" name="singDOWN"/>
+
+	<anim x="7" y="-243" anim="impostor up" name="singUP"/>
+
+	<anim x="29" y="-287" anim="impostor right" name="singRIGHT"/>
+
+	<anim x="82" y="-270" anim="red look" name="hey"/>
+
+</character>

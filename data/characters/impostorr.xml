@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character isPlayer="false" x="-150" y="-350" icon="impostor3" flipX="false" camx="-100" camy="290" color="#00FF00">
+	<anim name="idle" anim="impostor idle" fps="24" loop="false" x="59" y="-278"/>
+	<anim name="singRIGHT" anim="impostor right" fps="24" loop="false" x="-223" y="-760"/>
+	<anim name="singDOWN" anim="impostor down" fps="24" loop="false" x="-144" y="-759"/>
+	<anim name="singLEFT" anim="imposter left" fps="24" loop="false" x="344" y="-732"/>
+	<anim name="singUP" anim="impostor up2" fps="24" loop="false" x="-146" y="-773"/>
+</character>

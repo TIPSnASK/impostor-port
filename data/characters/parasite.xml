@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character isPlayer="false" x="70" y="100" icon="parasite" flipX="false" camx="-200" camy="-160" holdTime="6.1" scale="2" color="#00FF00">
+	<anim name="idle" anim="idle" fps="24" loop="true" x="161" y="70"/>
+	<anim name="singRIGHT" anim="right" fps="24" loop="false" x="33.5" y="-0.5"/>
+	<anim name="singDOWN" anim="down" fps="24" loop="false" x="93.5" y="-55"/>
+	<anim name="singLEFT" anim="left" fps="24" loop="false" x="206" y="14.5"/>
+	<anim name="singUP" anim="up" fps="24" loop="false" x="85.5" y="95.5"/>
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character isPlayer="false" x="400" y="280" icon="white" flipX="false" camx="-460" camy="60" holdTime="5" scale="1.1">
+	<anim name="slash" anim="impostor attack" fps="24" loop="false" x="345.454545454545" y="9.09090909090909" indices="[3,4,5,6,7,8,9,10,11,12]"/>
+	<anim name="idle" anim="idle_w" fps="24" loop="false" x="309.090909090909" y="-36.3636363636364"/>
+	<anim name="singDOWN" anim="down_w" fps="24" loop="false" x="359.090909090909" y="-78.1818181818182"/>
+	<anim name="singRIGHT" anim="right_w" fps="24" loop="false" x="310" y="-26.3636363636364"/>
+	<anim name="singUP" anim="up_w" fps="24" loop="false" x="345.454545454545" y="-0.909090909090909"/>
+	<anim name="singLEFT" anim="left_w" fps="24" loop="false" x="340" y="-40"/>
+</character>
