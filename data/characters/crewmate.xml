@@ -1,13 +1,13 @@
-<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character y="130" camx="30" camy="230" color="#00FF00">
-	<anim name="idle" anim="green idle" fps="24" loop="false" x="-82" y="-220"/>
-	<anim name="singRIGHT" anim="green right" fps="24" loop="false" x="-89" y="-229"/>
-	<anim name="singDOWN" anim="green down" fps="24" loop="false" x="46" y="-241"/>
-	<anim name="singLEFT" anim="green left" fps="24" loop="false" x="164" y="-216"/>
-	<anim name="singUP" anim="green up" fps="24" loop="false" x="61" y="-96"/>
-	<anim name="bopL" anim="silly dance left" fps="24" loop="false" x="-77" y="-199"/>
-	<anim name="bopR" anim="silly dance right" fps="24" loop="false" x="-80" y="-201"/>
-	<anim name="notice" anim="green notice" fps="24" loop="false" x="92" y="-218"/>
-	<anim name="handbye" anim="green unwave" fps="24" loop="false" x="89" y="-218"/>
-	<anim name="wave" anim="green wave" fps="24" loop="true" x="110" y="-218"/>
+<!DOCTYPE codename-engine-character>
+<character x="-75" camx="-95" y="170" camy="245" color="#00FF00">
+	<anim x="-82" loop="false" y="-220" fps="24" anim="green idle" name="idle"/>
+	<anim x="-89" loop="false" y="-229" fps="24" anim="green right" name="singRIGHT"/>
+	<anim x="46" loop="false" y="-241" fps="24" anim="green down" name="singDOWN"/>
+	<anim x="164" loop="false" y="-216" fps="24" anim="green left" name="singLEFT"/>
+	<anim x="61" loop="false" y="-96" fps="24" anim="green up" name="singUP"/>
+	<anim x="-77" loop="false" y="-199" fps="24" anim="silly dance left" name="bopL"/>
+	<anim x="-80" loop="false" y="-201" fps="24" anim="silly dance right" name="bopR"/>
+	<anim x="92" loop="false" y="-218" fps="24" anim="green notice" name="notice"/>
+	<anim x="89" loop="false" y="-218" fps="24" anim="green unwave" name="handbye"/>
+	<anim x="110" loop="true" y="-218" fps="24" anim="green wave" name="wave"/>
 </character>

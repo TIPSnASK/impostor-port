@@ -1,13 +1,13 @@
 <!DOCTYPE codename-engine-character>
-<character x="-200" camx="0" icon="impostor2" y="-55" scale="1" camy="190" flipX="false" isPlayer="false" holdTime="6.1">
-	<anim x="0" loop="false" y="0" fps="24" anim="impostor idle" name="idle"/>
+<character x="-245" y="-40" icon="impostor2" camx="390" camy="650" scale="1" isPlayer="false" flipX="false" holdTime="6.1">
+	<anim loop="false" x="0" anim="impostor idle" fps="24" y="0" name="idle"/>
 
-	<anim x="-299" loop="false" y="-478" fps="24" anim="impostor right" name="singRIGHT"/>
+	<anim loop="false" x="-299" anim="impostor right" fps="24" y="-478" name="singRIGHT"/>
 
-	<anim x="-213" loop="false" y="-524" fps="24" anim="impostor down" name="singDOWN"/>
+	<anim loop="false" x="-213" anim="impostor down" fps="24" y="-524" name="singDOWN"/>
 
-	<anim x="249" loop="false" y="-466" fps="24" anim="imposter left" name="singLEFT"/>
+	<anim loop="false" x="249" anim="imposter left" fps="24" y="-466" name="singLEFT"/>
 
-	<anim x="-202" loop="false" y="-494" fps="24" anim="impostor up2" name="singUP"/>
+	<anim loop="false" x="-202" anim="impostor up2" fps="24" y="-494" name="singUP"/>
 
 </character>

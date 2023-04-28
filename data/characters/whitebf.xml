@@ -1,12 +1,12 @@
-<!DOCTYPE codename-engine-character> <!-- Written BY HAND kys -->
-<character isPlayer="true" flipX="true" x="-300" y="560">
-    <anim name="idle"          anim="BF idle dance"      fps="24" loop="false" x="0"  y="0"/>
-    <anim name="singUP"        anim="BF NOTE UP0"        fps="24" loop="false" x="-300" y="268"/>
-    <anim name="singLEFT"      anim="BF NOTE LEFT0"      fps="24" loop="false" x="0"  y="0"/>
-    <anim name="singRIGHT"     anim="BF NOTE RIGHT0"     fps="24" loop="false" x="0" y="0"/>
-    <anim name="singDOWN"      anim="BF NOTE DOWN0"      fps="24" loop="false" x="-307" y="161"/>
-    <anim name="singUPmiss"        anim="BF NOTE UP MISS"        fps="24" loop="false" x="-300" y="268"/>
-    <anim name="singLEFTmiss"      anim="BF NOTE LEFT MISS"      fps="24" loop="false" x="0"  y="0"/>
-    <anim name="singRIGHTmiss"     anim="BF NOTE RIGHT MISS"     fps="24" loop="false" x="0" y="0"/>
-    <anim name="singDOWNmiss"      anim="BF NOTE DOWN MISS"      fps="24" loop="false" x="-307" y="161"/>
+<!DOCTYPE codename-engine-character>
+<character x="-300" camx="480" y="560" camy="60" isPlayer="true" flipX="true">
+    <anim x="0" loop="false" y="0" fps="24" anim="BF idle dance" name="idle"/>
+    <anim x="-300" loop="false" y="268" fps="24" anim="BF NOTE UP0" name="singUP"/>
+    <anim x="0" loop="false" y="0" fps="24" anim="BF NOTE LEFT0" name="singLEFT"/>
+    <anim x="0" loop="false" y="0" fps="24" anim="BF NOTE RIGHT0" name="singRIGHT"/>
+    <anim x="-307" loop="false" y="161" fps="24" anim="BF NOTE DOWN0" name="singDOWN"/>
+    <anim x="-300" loop="false" y="268" fps="24" anim="BF NOTE UP MISS" name="singUPmiss"/>
+    <anim x="0" loop="false" y="0" fps="24" anim="BF NOTE LEFT MISS" name="singLEFTmiss"/>
+    <anim x="0" loop="false" y="0" fps="24" anim="BF NOTE RIGHT MISS" name="singRIGHTmiss"/>
+    <anim x="-307" loop="false" y="161" fps="24" anim="BF NOTE DOWN MISS" name="singDOWNmiss"/>
 </character>

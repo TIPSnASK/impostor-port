@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" name="airship" folder="stages/airship/">
+    <sprite name="bg" x="-200" y="-100" sprite="halloween_bg" anim="idle" type="none"/>
+</stage>

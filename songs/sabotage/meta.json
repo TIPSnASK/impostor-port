@@ -1,0 +1,8 @@
+{
+    "displayName": "Sabotage",
+    "bpm": 100.0,
+    "icon": "impostor",
+    "color": "#9271FD",
+    "coopAllowed": true,
+    "opponentModeAllowed": true
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="reactor2" folder="stages/reactor" bfcam="1725, 1100" dadcam="1725, 1100">
+    <sprite name="bg" sprite="wallbgthing" x="0" y="0"/>
+    <sprite name="floor" sprite="floornew" x="0" y="0"/>
+    <sprite name="toogusorange" sprite="yellowcoti" x="875" y="915">
+        <anim name="bop" anim="Pillars with crewmates instance 1"/>
+    </sprite>
+    <sprite name="bg2" sprite="backbars" x="0" y="0"/>
+    <sprite name="toogusblue" sprite="browngeoff" x="450" y="995">
+        <anim name="bop" anim="Pillars with crewmates instance 1"/>
+    </sprite>
+    <sprite name="bg3" sprite="frontpillars"/>
+    <sprite name="tooguswhite" sprite="ball lol" x="1200" y="100">
+        <anim name="bop" anim="core instance 1"/>
+    </sprite>
+
+    <girlfriend x="1400" y="775" scroll="1"/>
+    <dad x="1100" y="750"/>
+    <boyfriend x="1950" y="750"/>
+
+    <sprite name="lightoverlay" sprite="frontblack" x="0" y="0"/>
+    <sprite name="mainoverlay" sprite="yeahman" x="750" y="100">
+        <anim name="bop" anim="Reactor Overlay Top instance 1" loop="true"/>
+    </sprite>
+</stage>

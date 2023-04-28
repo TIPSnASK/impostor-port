@@ -1,10 +1,10 @@
-<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character isPlayer="false" x="-150" y="-350" icon="impostor3" flipX="false" camx="-100" camy="290" holdTime="6.1" color="#00FF00">
-	<anim name="idle" anim="impostor idle" fps="24" loop="false" x="59" y="-278"/>
-	<anim name="singRIGHT" anim="impostor right" fps="24" loop="false" x="-223" y="-760"/>
-	<anim name="singDOWN" anim="impostor down" fps="24" loop="false" x="-144" y="-759"/>
-	<anim name="singLEFT" anim="imposter left" fps="24" loop="false" x="344" y="-732"/>
-	<anim name="singUP" anim="impostor up2" fps="24" loop="false" x="-146" y="-773"/>
-	<anim name="danceLeft" anim="impostor dance left" fps="24" loop="false" x="61" y="-278"/>
-	<anim name="danceRight" anim="impostor dance right" fps="24" loop="false" x="57" y="-278"/>
+<!DOCTYPE codename-engine-character>
+<character x="-200" camx="-100" icon="impostor3" y="-310" camy="290" color="#00FF00" flipX="false" isPlayer="false" holdTime="6.1">
+	<anim x="59" loop="false" y="-278" fps="24" anim="impostor idle" name="idle"/>
+	<anim x="-223" loop="false" y="-760" fps="24" anim="impostor right" name="singRIGHT"/>
+	<anim x="-144" loop="false" y="-759" fps="24" anim="impostor down" name="singDOWN"/>
+	<anim x="344" loop="false" y="-732" fps="24" anim="imposter left" name="singLEFT"/>
+	<anim x="-146" loop="false" y="-773" fps="24" anim="impostor up2" name="singUP"/>
+	<anim x="61" loop="false" y="-278" fps="24" anim="impostor dance left" name="danceLeft"/>
+	<anim x="57" loop="false" y="-278" fps="24" anim="impostor dance right" name="danceRight"/>
 </character>

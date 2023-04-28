@@ -1,0 +1,26 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="toogus" folder="stages/mira" bfcam="900, 475" dadcam="500, 475">
+    <sprite name="bg" sprite="mirabg" x="-1600" y="50" scale="1.06"/>
+    <sprite name="bgDark" sprite="MiraDark" y="50" scale="1.4">
+        <property name="alpha" type="float" value="0.001"/>
+    </sprite>
+    <sprite name="fg" sprite="mirafg" x="-1600" y="50" scale="1.06"/>
+    <sprite name="bfvent" sprite="bf_mira_vent" x="70" y="200" scale="1.06">
+        <anim name="vent" anim="bf vent"/>
+        <property name="alpha" type="float" value="0.001"/>
+    </sprite>
+    <sprite name="tbl" sprite="table_bg" x="-1600" y="50" scale="1.06"/>
+    <sprite name="ldSpeaker" sprite="stereo_taken" x="400" y="420" scale="1.06">
+        <anim name="boom" anim="stereo boom" loop="false"/>
+        <property name="alpha" type="float" value="0.001"/>
+    </sprite>
+
+    <girlfriend x="400" y="80" scroll="1"/>
+    <dad x="0" y="50"/>
+    <boyfriend x="970" y="50"/>
+
+    <sprite name="saxguy" sprite="cyan_toogus" x="-550" y="275">
+        <anim name="bop" anim="Cyan Dancy" loop="true"/>
+        <property name="alpha" type="float" value="0.001"/>
+    </sprite>
+</stage>

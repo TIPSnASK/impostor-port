@@ -1,0 +1,30 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="airshipRoom" folder="stages/airship" bfcam="700, 500" dadcam="300, 500">
+    <sprite name="bg0" sprite="fartingSky" x="-1468" y="-995" scroll="0.3"/>
+    <sprite name="bg1" sprite="backSkyyellow" x="-1125" y="284" scrollx="0.4" scrolly="0.7"/>
+    <sprite name="bg2" sprite="yellow cloud 3" x="1330" y="283" scrollx="0.5" scrolly="0.8"/>
+    <sprite name="bg3" sprite="yellow could 2" x="-837" y="304" scrollx="0.6" scrolly="0.9"/>
+    <sprite name="bg4" sprite="window" x="-1387" y="-1231"/>
+    <sprite name="bg5" sprite="cloudYellow 1" x="-1541" y="242" scroll="0.8"/>
+    <sprite name="bg6" sprite="backDlowFloor" x="-642" y="325" scrollx="0.9"/>
+    <sprite name="bg7" sprite="DlowFloor" x="-2440" y="336"/>
+    <sprite name="bg8" sprite="glowYellow" x="-1113" y="-1009"/>
+
+    <sprite name="whiteAwkward" sprite="white_awkward" x="298" y="480">
+        <anim name="sweat" anim="fetal position" loop="true"/>
+    </sprite>
+
+    <sprite name="henry" sprite="Teleporter" x="998" y="620"/>
+
+    <girlfriend x="135" y="100" scroll="1"/>
+    <dad x="-220" y="90"/>
+    <boyfriend x="700" y="90"/>
+</stage>
+
+<!-- whiteAwkward = new FlxSprite(298, 480);
+whiteAwkward.frames = Paths.getSparrowAtlas('airship/newAirship/white_awkward', 'impostor');
+whiteAwkward.animation.addByPrefix('sweat', 'fetal position', 24, true);
+whiteAwkward.animation.addByPrefix('stare', 'white stare', 24, false);
+whiteAwkward.animation.play('sweat');
+whiteAwkward.antialiasing = true;
+add(whiteAwkward); -->

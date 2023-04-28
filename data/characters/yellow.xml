@@ -1,9 +1,9 @@
 <!DOCTYPE codename-engine-character>
-<character y="160" holdTime="10" color="#FFFF00">
-	<anim name="idle" anim="yellow idle" fps="24" loop="false" x="-40" y="-150"/>
-	<anim name="singRIGHT" anim="yellow right" fps="24" loop="false" x="0" y="-183"/>
-	<anim name="singDOWN" anim="yellow down" fps="24" loop="false" x="-77" y="-224"/>
-	<anim name="singLEFT" anim="yellow left" fps="24" loop="false" x="22" y="-220"/>
-	<anim name="singUP" anim="yellow up" fps="24" loop="false" x="23" y="-171"/>
-	<anim name="death" anim="death" fps="24" loop="false" x="-40" y="-169"/>
+<character x="-65" holdTime="10" camx="-80" y="190" camy="180" color="#FFFF00">
+	<anim x="-40" loop="false" y="-150" fps="24" anim="yellow idle" name="idle"/>
+	<anim x="0" loop="false" y="-183" fps="24" anim="yellow right" name="singRIGHT"/>
+	<anim x="-77" loop="false" y="-224" fps="24" anim="yellow down" name="singDOWN"/>
+	<anim x="22" loop="false" y="-220" fps="24" anim="yellow left" name="singLEFT"/>
+	<anim x="23" loop="false" y="-171" fps="24" anim="yellow up" name="singUP"/>
+	<anim x="-40" loop="false" y="-169" fps="24" anim="death" name="death"/>
 </character>

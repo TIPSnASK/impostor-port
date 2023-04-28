@@ -1,0 +1,35 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.8" name="cargo" folder="stages/cargo" bfcam="2300, 1050" dadcam="2000, 1050">
+    <sprite name="bg" sprite="cargo" x="0" y="0"/>
+    <!-- <sprite name="cargoDark" x="-1000" y="-1000" scale="3"/> makegraphic support i beg -->
+    <sprite name="cargoAirsip" sprite="airshipFlashback" x="2200" y="800" scale="1.3">
+        <property name="alpha" type="float" value="0.001"/>
+    </sprite>
+
+    <girlfriend x="2500" y="600" scroll="1">
+        <property name="alpha" type="float" value="0.001"/>
+    </girlfriend>
+    <dad x="1250" y="680"/>
+    <boyfriend x="2550" y="650"/>
+    
+    <sprite name="lightoverlayDK" sprite="scvavd" x="0" y="0">
+        <property name="alpha" type="float" value="0.51"/>
+    </sprite>
+    <sprite name="mainoverlayDK" sprite="overlay ass dk" x="-100" y="0">
+        <property name="alpha" type="float" value="0.6"/>
+    </sprite>
+    <sprite name="defeatDKoverlay" sprite="iluminao omaga" x="900" y="350">
+        <property name="alpha" type="float" value="0.001"/>
+    </sprite>
+    <!-- <sprite name="cargoDarkFG" x="-1000" y="-1000" scale="3"/> makegraphic support i beg -->
+</stage>
+
+<!--
+
+    figure out how to blend things
+
+    lightoverlayDK.blend = ADD;
+    mainoverlayDK.blend = ADD;
+    defeatDKoverlay.blend = ADD;
+
+-->
