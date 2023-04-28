@@ -36,7 +36,7 @@ function stepHit(step) {
         case 1600:
             for (i in [bubblyBitch, greenFuck, boyFuck, camHUD, boyfriend, gf]) i.visible = false;
             
-            if (!FlxG.save.data.lowQuality) {
+            if (!Options.lowMemoryMode) {
                 ldSpeaker.animation.play("boom", true);
                 bfvent.animation.play("vent", true);
                 for (i in [ldSpeaker, bfvent]) i.alpha = 1;
@@ -52,9 +52,11 @@ function stepHit(step) {
 var anims = ["singLEFT", "singDOWN", "singUP", "singRIGHT"];
 
 function onDadHit(event:NoteHitEvent) {
-    (event.note.strumTime >= 141176) ? event.cancel() : greenFuck.playAnim(anims[event.note.noteData], true);
+    if (!PlayState.opponentMode) (event.note.strumTime >= 141176) ? event.cancel() : greenFuck.playAnim(anims[event.note.noteData], true);
+    else boyFuck.playAnim(anims[event.note.noteData], true);
 }
 
 function onPlayerHit(event:NoteHitEvent) {
-    boyFuck.playAnim(anims[event.note.noteData], true);
+    if (!PlayState.opponentMode) boyFuck.playAnim(anims[event.note.noteData], true);
+    else (event.note.strumTime >= 141176) ? event.cancel() : greenFuck.playAnim(anims[event.note.noteData], true);
 }

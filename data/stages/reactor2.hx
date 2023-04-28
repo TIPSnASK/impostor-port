@@ -1,7 +1,7 @@
 // boobies
 
 function create() {
-	if (FlxG.save.data.lowQuality == true) {
+	if (Options.lowMemoryMode) {
 		for (object in stage.stageSprites) {
 			object.kill();
 			object.destroy();
@@ -15,7 +15,7 @@ function create() {
 }
 
 function postCreate() {
-	if (!FlxG.save.data.lowQuality && FlxG.save.data.ambients) {
+	if (!Options.lowMemoryMode && FlxG.save.data.ambients) {
 		var overlay1:FlxSprite = new FlxSprite().makeGraphic(1280, 720, 0xFFFF5900);
 		overlay1.alpha = 0.15;
 		overlay1.blend = 0;

@@ -13,7 +13,7 @@ var speedLines:FlxBackdrop;
 var imNotFuckingDoingThat:Float = 1325;
 
 function create() {
-    if (!FlxG.save.data.lowQuality) {
+    if (!Options.lowMemoryMode) {
         var sky:FlxSprite = new FlxSprite(-2372.25, -4181.7).loadGraphic(Paths.image('stages/ejected/sky'));
         sky.antialiasing = true;
         sky.updateHitbox();
@@ -73,7 +73,7 @@ function create() {
 }
 
 function postCreate() {
-    if (!FlxG.save.data.lowQuality) {
+    if (!Options.lowMemoryMode) {
         add(speedLines);
 
         camOverlay = new FlxCamera();

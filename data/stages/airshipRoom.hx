@@ -3,7 +3,7 @@
 import flixel.input.mouse.FlxMouseEventManager;
 
 function create() {
-    if (FlxG.save.data.lowQuality == true) {
+    if (Options.lowMemoryMode) {
         for (object in stage.stageSprites) {
             object.kill();
             object.destroy();

@@ -3,7 +3,7 @@
 var front:FlxSprite;
 
 function create() {
-    if (FlxG.save.data.lowQuality == true) {
+    if (Options.lowMemoryMode) {
         for (object in stage.stageSprites) {
             object.kill();
             object.destroy();
@@ -28,13 +28,13 @@ function create() {
 }
 
 function postCreate() {
-    if (PlayState.SONG.meta.name == 'meltdown' && FlxG.save.data.lowQuality) {
+    if (PlayState.SONG.meta.name == 'meltdown' && Options.lowMemoryMode) {
         front = new FlxSprite(-900, 150).loadGraphic(Paths.image('lowquality/stages/polus/front'));
         front.scrollFactor.set(1.5, 1.5);
         add(front);
     }
 
-    if (!FlxG.save.data.lowQuality && FlxG.save.data.ambients) {
+    if (!Options.lowMemoryMode && FlxG.save.data.ambients) {
         var overlay1:FlxSprite = new FlxSprite().makeGraphic(1280, 720, 0xFFA200FF);
         overlay1.alpha = 0.1;
         overlay1.blend = 0;
@@ -44,7 +44,7 @@ function postCreate() {
 }
 
 function beatHit() {
-    if (PlayState.SONG.meta.name == 'meltdown' && FlxG.save.data.lowQuality) {
+    if (PlayState.SONG.meta.name == 'meltdown' && Options.lowMemoryMode) {
         FlxTween.cancelTweensOf(front, "y");
         front.y = 175;
         FlxTween.tween(front, {y: 150}, 0.75, {ease: FlxEase.quintOut});
