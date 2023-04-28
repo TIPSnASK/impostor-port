@@ -15,13 +15,11 @@ var imNotFuckingDoingThat:Float = 1325;
 function create() {
     if (!Options.lowMemoryMode) {
         var sky:FlxSprite = new FlxSprite(-2372.25, -4181.7).loadGraphic(Paths.image('stages/ejected/sky'));
-        sky.antialiasing = true;
         sky.updateHitbox();
         sky.scrollFactor.set(0, 0);
         add(sky);
 
         fgCloud = new FlxSprite(-2660.4, 0).loadGraphic(Paths.image('stages/ejected/fgClouds'));
-        fgCloud.antialiasing = true;
         fgCloud.updateHitbox();
         fgCloud.scrollFactor.set(0.2, 0.2);
         fgCloud.velocity.y = -5;
@@ -40,14 +38,12 @@ function create() {
         add(buildings);
 
         speedLines = new FlxBackdrop(Paths.image('stages/ejected/speedLines'));
-        speedLines.antialiasing = true;
         speedLines.updateHitbox();
         speedLines.scrollFactor.set(1.3, 1.3);
         speedLines.alpha = 0.3;
         speedLines.velocity.y = -9000;
     } else {
         var sky:FlxSprite = new FlxSprite(-2372.25, -3000).loadGraphic(Paths.image('lowquality/stages/ejected/sky'));
-        sky.antialiasing = true;
         sky.updateHitbox();
         sky.scrollFactor.set(0.05, 0.05);
         sky.velocity.y = -10;
@@ -62,14 +58,9 @@ function create() {
         add(buildings);
         buildings.velocity.y = -10000000000;
     }
-
-    bfCam = [imNotFuckingDoingThat + 750, 550];
-    dadCam = [imNotFuckingDoingThat + 0, 550];
-    defaultCamZoom = 0.45;
-    boyfriend.setPosition(imNotFuckingDoingThat + 1008.6, 100);
-    gf.setPosition(imNotFuckingDoingThat + 114.4, 78.45);
-    dad.setPosition(imNotFuckingDoingThat + -775.75, 274.3);
-    gf.scrollFactor.set(0.7, 0.7);
+    remove(dad);
+    remove(gf);
+    remove(boyfriend);
 }
 
 function postCreate() {
@@ -95,6 +86,16 @@ function postCreate() {
         add(overlay2);
         overlay2.velocity.y = -7.5;
     }
+    
+    defaultCamZoom = 0.45;
+    boyfriend.setPosition(imNotFuckingDoingThat + 1008.6, 100);
+    gf.setPosition(imNotFuckingDoingThat + 114.4, 78.45);
+    dad.setPosition(imNotFuckingDoingThat + -775.75, 274.3);
+    gf.scrollFactor.set(0.7, 0.7);
+    
+    add(gf);
+    add(dad);
+    add(boyfriend);
 }
 
 function postUpdate(elapsed:Float) {

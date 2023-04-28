@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="1" name="default" folder="stages/default/" defaultDad="parasite" defaultGF="gf-fall" defaultBF="bf-fall">
+<stage zoom="1" name="default" folder="stages/default/" defaultDad="parasite" defaultGF="gf-fall" defaultBF="bf-fall" dadcam="1325, 550" bfcam="2075, 550">
     <girlfriend />
     <boyfriend />
     <dad />

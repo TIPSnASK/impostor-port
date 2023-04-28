@@ -10,7 +10,7 @@ var lastNote = {
 	data: -1
 };
 
-static var bfColor:FlxColor = 0xFFFF0000;
+static var bfColor:FlxColor = 0xFF00FFFF;
 static var dadColor:FlxColor = 0xFFFF0000;
 static var disableDoublesDad:Bool = false;
 static var disableDoublesBf:Bool = false;
