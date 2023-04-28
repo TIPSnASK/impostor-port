@@ -1,4 +1,5 @@
 <!DOCTYPE codename-mod-options>
 <menu name="Impostor" desc="Impostor Port Settings">
 	<checkbox id="flashingLights" name="Flashing Lights" />
+	<checkbox id="lowQuality" name="Low Quality" />
 </menu>

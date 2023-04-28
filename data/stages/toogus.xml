@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.9" name="toogus" folder="stages/mira" bfcam="900, 475" dadcam="500, 475">
+<stage zoom="0.9" name="toogus" folder="stages/mira" bfcam="900, 475" dadcam="500, 475" defaultDad="crewmate">
     <sprite name="bg" sprite="mirabg" x="-1600" y="50" scale="1.06"/>
     <sprite name="bgDark" sprite="MiraDark" y="50" scale="1.4">
         <property name="alpha" type="float" value="0.001"/>
@@ -16,7 +16,7 @@
     </sprite>
 
     <girlfriend x="400" y="80" scroll="1"/>
-    <dad x="0" y="50"/>
+    <dad x="5" y="40"/>
     <boyfriend x="970" y="50"/>
 
     <sprite name="saxguy" sprite="cyan_toogus" x="-550" y="275">

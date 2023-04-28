@@ -299,56 +299,41 @@ function openChar(file) {
 
 function update(elapsed:Float)
 {
-	if (FlxG.keys.justPressed.EIGHT)
-		FlxG.switchState(new UIState(true, 'editors/UICharacterEditor'));
+	if (FlxG.keys.justPressed.EIGHT) FlxG.switchState(new UIState(true, 'editors/UICharacterEditor'));
 
-	if (FlxG.keys.pressed.A)
-		charcam.scroll.x -= 500 / charcam.zoom * elapsed;
-	if (FlxG.keys.pressed.S)
-		charcam.scroll.y += 500 / charcam.zoom * elapsed;
-	if (FlxG.keys.pressed.W)
-		charcam.scroll.y -= 500 / charcam.zoom * elapsed;
-	if (FlxG.keys.pressed.D)
-		charcam.scroll.x += 500 / charcam.zoom * elapsed;
-	if (FlxG.mouse.wheel < 0)
-		charcam.zoom -= 2 * elapsed;
-	if (FlxG.mouse.wheel > 0)
-		charcam.zoom += 2 * elapsed;
+	if (FlxG.keys.pressed.A) charcam.scroll.x -= 500 / charcam.zoom * elapsed;
+	if (FlxG.keys.pressed.S) charcam.scroll.y += 500 / charcam.zoom * elapsed;
+	if (FlxG.keys.pressed.W) charcam.scroll.y -= 500 / charcam.zoom * elapsed;
+	if (FlxG.keys.pressed.D) charcam.scroll.x += 500 / charcam.zoom * elapsed;
 
-	if (FlxG.keys.justPressed.SPACE)
-		character.playAnim(character.getAnimName(), true);
+	if (FlxG.mouse.wheel < 0) charcam.zoom -= 2 * elapsed;
+	if (FlxG.mouse.wheel > 0) charcam.zoom += 2 * elapsed;
+
+	if (FlxG.keys.justPressed.SPACE) character.playAnim(character.getAnimName(), true);
 	if (FlxG.keys.justPressed.LEFT)
-		if (editingGlobal)
-			offsetChar(true, false, !character.isPlayer?-1:1);
-		else if (editingLocal)
-			offsetChar(false, false, !character.isPlayer?1:-1);
+		if (editingGlobal) offsetChar(true, false, !character.isPlayer?-1:1);
+		else if (editingLocal) offsetChar(false, false, !character.isPlayer?1:-1);
 		else if (editingCamera) {
 			character.cameraOffset.x -= (FlxG.keys.pressed.SHIFT?10:(FlxG.keys.pressed.CONTROL?1:5));
 			character.xml.set("camx", character.cameraOffset.x);
 		}
 	if (FlxG.keys.justPressed.DOWN)
-		if (editingGlobal)
-			offsetChar(true, true, 1);
-		else if (editingLocal)
-			offsetChar(false, true, 1);
+		if (editingGlobal) offsetChar(true, true, 1);
+		else if (editingLocal) offsetChar(false, true, 1);
 		else if (editingCamera) {
 			character.cameraOffset.y += (FlxG.keys.pressed.SHIFT?10:(FlxG.keys.pressed.CONTROL?1:5));
 			character.xml.set("camy", character.cameraOffset.y);
 		}
 	if (FlxG.keys.justPressed.UP)
-		if (editingGlobal)
-			offsetChar(true, true, -1);
-		else if (editingLocal)
-			offsetChar(false, true, -1);
+		if (editingGlobal) offsetChar(true, true, -1);
+		else if (editingLocal) offsetChar(false, true, -1);
 		else if (editingCamera) {
 			character.cameraOffset.y -= (FlxG.keys.pressed.SHIFT?10:(FlxG.keys.pressed.CONTROL?1:5));
 			character.xml.set("camy", character.cameraOffset.y);
 		}
 	if (FlxG.keys.justPressed.RIGHT)
-		if (editingGlobal)
-			offsetChar(true, false, !character.isPlayer?1:-1);
-		else if (editingLocal)
-			offsetChar(false, false, !character.isPlayer?-1:1);
+		if (editingGlobal) offsetChar(true, false, !character.isPlayer?1:-1);
+		else if (editingLocal) offsetChar(false, false, !character.isPlayer?-1:1);
 		else if (editingCamera) {
 			character.cameraOffset.x += (FlxG.keys.pressed.SHIFT?10:(FlxG.keys.pressed.CONTROL?1:5));
 			character.xml.set("camx", character.cameraOffset.x);

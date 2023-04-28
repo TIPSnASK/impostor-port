@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" name="default" folder="stages/default/" defaultDad="parasite" defaultGF="gf-fall" defaultBF="bf-fall">
+    <girlfriend />
+    <boyfriend />
+    <dad />
+</stage>

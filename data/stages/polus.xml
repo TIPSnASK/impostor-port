@@ -14,7 +14,7 @@
     </sprite>
 
     <girlfriend x="300" y="-120" scroll="1"/>
-    <dad x="0" y="-150"/>
+    <dad x="0" y="-160"/>
     <boyfriend x="870" y="-150"/>
 
     <sprite name="snow" sprite="snow" x="0" y="-250" scale="2">

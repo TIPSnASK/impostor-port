@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.7" name="airshipRoom" folder="stages/airship" bfcam="700, 500" dadcam="300, 500">
+<stage zoom="0.7" name="airshipRoom" folder="stages/airship" bfcam="700, 500" dadcam="300, 500" defaultDad="yellow">
     <sprite name="bg0" sprite="fartingSky" x="-1468" y="-995" scroll="0.3"/>
     <sprite name="bg1" sprite="backSkyyellow" x="-1125" y="284" scrollx="0.4" scrolly="0.7"/>
     <sprite name="bg2" sprite="yellow cloud 3" x="1330" y="283" scrollx="0.5" scrolly="0.8"/>
@@ -17,7 +17,7 @@
     <sprite name="henry" sprite="Teleporter" x="998" y="620"/>
 
     <girlfriend x="135" y="100" scroll="1"/>
-    <dad x="-220" y="90"/>
+    <dad x="-105" y="80"/>
     <boyfriend x="700" y="90"/>
 </stage>
 

@@ -1,1 +1,3 @@
 story mode is broken
+
+characters dont show up in ejected for some reason

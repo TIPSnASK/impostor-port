@@ -17,9 +17,9 @@ function create() {
 }
 
 function postCreate() {
-    if (!FlxG.save.data.lowQuality) bg8.blend = 0;
+    bg8.blend = 0;
 
-    if (PlayState.SONG.song.toLowerCase() == 'oversight') henry.visible = false;
+    if (PlayState.SONG.meta.name == 'oversight') henry.visible = false;
 }
 
 function henryTeleport() {
