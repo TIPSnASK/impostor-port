@@ -51,9 +51,11 @@ function stepHit() {
 			if (FlxG.save.data.flashingLights) camOverlay.flash();
 		case 2816:
 			if (FlxG.save.data.flashingLights) camOverlay.flash();
-			camOverlay.fade(0xFF000000, 4);
+			FlxG.camera.fade(0xFF000000, 4, false, null, true);
 			FlxTween.tween(dad, {y: dad.y + 500}, 4, {ease: FlxEase.quintIn});
 			FlxTween.tween(gf, {y: gf.y + 500}, 4, {ease: FlxEase.quintIn});
 			FlxTween.tween(boyfriend, {y: boyfriend.y + 500}, 4, {ease: FlxEase.quintIn});
+			FlxTween.tween(camHUD, {alpha: 0.001}, 4, {ease: FlxEase.quintIn});
+			FlxTween.tween(camOverlay, {alpha: 0.001}, 4, {ease: FlxEase.quintIn});
 	}
 }

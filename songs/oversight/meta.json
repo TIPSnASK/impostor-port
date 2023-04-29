@@ -1,0 +1,8 @@
+{
+    "displayName": "Oversight",
+    "bpm": 100.0,
+    "icon": "white",
+    "color": "#9271FD",
+    "coopAllowed": true,
+    "opponentModeAllowed": true
+}
