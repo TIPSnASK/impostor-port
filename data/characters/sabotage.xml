@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" y="135" sprite="impostorS" icon="impostor" camx="-70" camy="290" scale="1">
+<character x="-50" y="135" icon="impostor" camx="-70" camy="290" scale="1">
 	<anim x="80" name="idle" anim="impostor idle" y="-270"/>
 
 	<anim x="185" name="singLEFT" anim="impostor left" y="-285"/>

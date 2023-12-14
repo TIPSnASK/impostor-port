@@ -1,3 +1,0 @@
-story mode is broken
-
-i am begging of someone to fix the lag spike whenever a texture atlas character is used in the doubles script

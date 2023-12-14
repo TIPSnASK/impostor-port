@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="bfshock.png">
-	<!-- Created with Adobe Animate version 21.0.3.38773 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="BF idle dance instance 10000" x="0" y="0" width="409" height="416"/>
-	<SubTexture name="BF idle dance instance 10001" x="418" y="0" width="409" height="416"/>
-	<SubTexture name="BF idle dance instance 10002" x="836" y="0" width="409" height="416"/>
-	<SubTexture name="BF idle dance instance 10003" x="1254" y="0" width="409" height="416"/>
-	<SubTexture name="BF idle dance instance 10004" x="0" y="425" width="409" height="416"/>
-	<SubTexture name="BF idle dance instance 10005" x="418" y="425" width="409" height="416"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.2 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bfshock.png" width="411" height="2497">
+	<SubTexture name="BF idle dance instance 10000" x="1" y="835" width="408" height="413" frameX="-1" frameY="-2" frameWidth="409" frameHeight="416"/>
+	<SubTexture name="BF idle dance instance 10003" x="1" y="1" width="409" height="415" frameX="-0" frameY="-1" frameWidth="409" frameHeight="416"/>
+	<SubTexture name="BF idle dance instance 10001" x="1" y="419" width="409" height="413" frameX="-0" frameY="-2" frameWidth="409" frameHeight="416"/>
+	<SubTexture name="BF idle dance instance 10002" x="1" y="1251" width="408" height="413" frameX="-1" frameY="-2" frameWidth="409" frameHeight="416"/>
+	<SubTexture name="BF idle dance instance 10004" x="1" y="1667" width="408" height="413" frameX="-1" frameY="-2" frameWidth="409" frameHeight="416"/>
+	<SubTexture name="BF idle dance instance 10005" x="1" y="2083" width="408" height="413" frameX="-1" frameY="-2" frameWidth="409" frameHeight="416"/>
 </TextureAtlas>
