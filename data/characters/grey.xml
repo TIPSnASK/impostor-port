@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="220" camx="500" holdTime="10" scale="0.9">
+	<anim name="singRIGHT" anim="right" x="-145" y="24"/>
+	<anim name="singDOWN" anim="down" x="-96" y="-94"/>
+	<anim name="singLEFT" anim="left" x="12" y="-5"/>
+	<anim name="singUP" anim="up" x="-47" y="-23"/>
+	<anim name="danceLeft" anim="idle" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+	<anim name="danceRight" anim="idle" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"/>
+</character>

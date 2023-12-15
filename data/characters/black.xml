@@ -1,8 +1,8 @@
-<!DOCTYPE codename-engine-character>
-<character x="180" camx="-520" y="80" camy="-130" color="#3a1b4f">
-	<anim x="580" y="-27" anim="black left" name="singLEFT"/>
-	<anim x="365" loop="true" y="30" anim="black idle remast" name="idle"/>
-	<anim x="352" y="-48" anim="black right" name="singRIGHT"/>
-	<anim x="571" y="270" anim="black down" name="singDOWN"/>
-	<anim x="684" y="135" anim="black up" name="singUP"/>
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="180" y="80" camx="-880" camy="-100">
+	<anim name="singLEFT" anim="black left" x="580" y="-27"/>
+	<anim name="idle" anim="black idle remast" x="365" y="30" loop="true"/>
+	<anim name="singRIGHT" anim="black right" x="352" y="-48"/>
+	<anim name="singDOWN" anim="black down" x="571" y="270"/>
+	<anim name="singUP" anim="black up" x="684" y="135"/>
 </character>

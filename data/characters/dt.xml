@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="130" camx="-910" camy="-410" holdTime="6.1" scale="2.6">
+	<anim name="idle" anim="mungus idle instance 1" x="254" y="-17" loop="true"/>
+	<anim name="singRIGHT" anim="parasite right new instance 1" x="240" y="-3"/>
+	<anim name="singDOWN" anim="paracite down instance 1" x="224" y="23"/>
+	<anim name="singLEFT" anim="parasite left instance 1" x="351" y="79"/>
+	<anim name="singUP" anim="parashite up instance 1" x="191" y="621"/>
+	<anim name="singRIGHT-alt" anim="parasite right redsing instance 1" x="240" y="-80"/>
+	<anim name="singDOWN-alt" anim="parasite down redsing instance 1" x="230" y="-20"/>
+	<anim name="singLEFT-alt" anim="parasite left redsing instance 1" x="310" y="20"/>
+	<anim name="singUP-alt" anim="parasite up redsing instance 1" x="211" y="282"/>
+</character>

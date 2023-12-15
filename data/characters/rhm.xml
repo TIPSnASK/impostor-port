@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-190" y="150" camy="-20" holdTime="6.1">
+	<anim name="idle" anim="RHM Idle" x="-109" y="190"/>
+	<anim name="singRIGHT" anim="RHM Right" x="-152" y="150"/>
+	<anim name="singUP" anim="RHM Up" x="-99" y="366"/>
+	<anim name="singLEFT" anim="RHM left pose" x="15" y="190"/>
+	<anim name="singDOWN" anim="RHM down new" x="-83" y="120"/>
+	<anim name="intro" anim="RHM intro new" x="-94" y="190"/>
+	<anim name="animation" anim="rhm animation" x="-150" y="-340"/>
+</character>

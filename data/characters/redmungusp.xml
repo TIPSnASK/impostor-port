@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-380" y="-450" camx="-130" camy="300" holdTime="6.1">
+	<anim name="singRIGHT" anim="Right" x="-157" y="-441"/>
+	<anim name="singDOWN" anim="Down" x="11" y="-455"/>
+	<anim name="singUP" anim="Up" x="180" y="-228"/>
+	<anim name="singLEFT" anim="Left" x="10" y="-354"/>
+	<anim name="idle" anim="Idle" x="70" y="-280" loop="true"/>
+</character>

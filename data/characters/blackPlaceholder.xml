@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="290" camx="-430" camy="-190" holdTime="6.1">
+	<anim name="idle" anim="black idle (placeholder)" x="450" y="350" loop="true"/>
+	<anim name="singRIGHT" anim="black idle (placeholder)" x="450" y="350" loop="true"/>
+	<anim name="singDOWN" anim="black idle (placeholder)" x="450" y="350" loop="true"/>
+	<anim name="singLEFT" anim="black idle (placeholder)" x="450" y="350" loop="true"/>
+	<anim name="singUP" anim="black idle (placeholder)" x="450" y="350" loop="true"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="60" camx="-130" holdTime="6.1">
+	<anim name="idle" anim="Impostor Idle" y="60" fps="12" loop="true"/>
+	<anim name="singDOWN" anim="Impostor Down" x="-17" y="28" fps="12" loop="true"/>
+	<anim name="singRIGHT" anim="Impostor Forward" x="-9" y="78" fps="12" loop="true"/>
+	<anim name="singLEFT" anim="Impostor Backwards" x="-4" y="60" fps="12" loop="true"/>
+	<anim name="singUP" anim="Impostor Up" x="7" y="129" fps="12" loop="true"/>
+</character>

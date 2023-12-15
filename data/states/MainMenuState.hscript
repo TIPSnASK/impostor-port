@@ -1,0 +1,149 @@
+// god this is gonna be painful
+
+import flixel.addons.display.FlxBackdrop;
+import funkin.options.OptionsMenu;
+// import funkin.menus.credits.CreditsMain;
+
+var optionShits:Array<String> = ['Story Mode', 'Freeplay', 'Gallery', 'Credits', 'Options', 'Shop', 'Innersloth'];
+var menuShits:FlxTypedGroup;
+var starFG:FlxBackdrop;
+var starBG:FlxBackdrop;
+var redImpostor:FunkinSprite;
+var greenImpostor:FunkinSprite;
+var vignette:FunkinSprite;
+var glowyThing:FunkinSprite;
+var logo:FunkinSprite;
+var canPress:Bool = true;
+
+function postCreate() {
+	for (i in members) remove(i);
+
+	FlxG.mouse.visible = true;
+
+	for (i in ['starFG', 'starBG']) {
+		var stars:FlxBackdrop = new FlxBackdrop(Paths.image('menus/' + i), 1, 1, true, true);
+		stars.updateHitbox();
+		stars.antialiasing = true;
+		stars.velocity.x = -15;
+		add(stars);
+
+		if (i == 'starFG') starFG = stars;
+		else starBG = stars;
+	}
+
+	for (i in [{sprite: 'redMenu', name: 'red'}, {sprite: 'greenmenu', name: 'green'}]) {
+		var impostor:FunkinSprite = new FunkinSprite(i.name == 'red' ? 350 : -300, i.name == 'red' ? -160 : -60);
+		impostor.frames = Paths.getSparrowAtlas('menus/' + i.sprite);
+		impostor.animation.addByPrefix('idle', i.name + ' idle', 24, true);
+		impostor.animation.addByPrefix('select', i.name + ' select', 24, false);
+		impostor.playAnim('idle', true);
+		impostor.antialiasing = true;
+		impostor.updateHitbox();
+		impostor.scale.set(0.7, 0.7);
+		impostor.scrollFactor.set();
+		add(impostor);
+
+		if (i.name == 'red') redImpostor = impostor;
+		else greenImpostor = impostor;
+	}
+
+	vignette = new FunkinSprite(0, 0).loadGraphic(Paths.image('menus/vignette'));
+	vignette.antialiasing = true;
+	vignette.updateHitbox();
+	vignette.active = false;
+	vignette.scrollFactor.set();
+	add(vignette);
+
+	glowyThing = new FunkinSprite(361, 438).loadGraphic(Paths.image('menus/buttonglow'));
+	glowyThing.antialiasing = true;
+	glowyThing.scale.set(0.51, 0.51);
+	glowyThing.updateHitbox();
+	glowyThing.active = false;
+	glowyThing.scrollFactor.set();
+	glowyThing.visible = false;
+	add(glowyThing);
+
+	logo = new FunkinSprite(0, 100);
+	logo.frames = Paths.getSparrowAtlas('menus/logoBumpin');
+	logo.animation.addByPrefix('bump', 'logo bumpin', 24, false);
+	logo.beatAnims = ['bump'];
+	logo.screenCenter();
+	logo.updateHitbox();
+	logo.antialiasing = true;
+	logo.scale.set(0.65, 0.65);
+	logo.y -= 160;
+	add(logo);
+
+	menuShits = new FlxTypedGroup();
+
+	var positioning = [
+		0 => [400, 475],
+		1 => [633, 475],
+		2 => [400, 580],
+		3 => [633, 580],
+
+		4 => [455, 640],
+		5 => [590, 640],
+		6 => [725, 640]
+	];
+	for (i in 0...optionShits.length) {
+		var button:FunkinSprite = new FunkinSprite(0, 130);
+		var shit = (i > 3) ? 'Buttons_UI' : 'Big_Buttons_UI';
+		button.ID = i;
+		button.frames = Paths.getSparrowAtlas('menus/' + shit);
+		button.animation.addByPrefix('idle', optionShits[i] + ' Button', 24, true);
+		button.animation.addByPrefix('hover', optionShits[i] + ' Select', 24, true);
+		button.playAnim('idle', true);
+		button.antialiasing = true;
+		button.scale.set(0.50 ,0.50);
+		button.updateHitbox();
+		button.screenCenter(FlxAxes.X);
+		button.scrollFactor.set();
+		button.setPosition(positioning[i][0], positioning[i][1]);
+		menuShits.add(button);
+	}
+	add(menuShits);
+	remove(menuItems);
+
+	FlxG.camera.target = null;
+}
+
+function update(elapsed:Float) {
+	if (FlxG.keys.justPressed.EIGHT) FlxG.resetState();
+
+	for (i in menuShits.members) {
+		if (FlxG.mouse.overlaps(i) && canPress) {
+			i.animation.play('hover', false);
+			if ((FlxG.keys.justPressed.ENTER) || (FlxG.mouse.justPressed)) {
+				if (!FlxG.keys.justPressed.ENTER) {
+					selectedSomethin = true;
+					CoolUtil.playMenuSFX(1);
+				}
+				for (v in [starFG, starBG])
+					FlxTween.tween(v, {y: v.y + 500}, 1, {ease: FlxEase.quadInOut, startDelay: v == starFG ? 0 : 0.2});
+				for (v in [redImpostor, greenImpostor]) {
+					v.animation.play('select', true);
+					FlxTween.tween(v, {y: v.y + 800}, 0.7, {ease: FlxEase.quadInOut, startDelay: 0.25});
+				}
+				FlxG.camera.fade(0xFF000000, 0.7, false);
+				new FlxTimer().start(1, function(tmr:FlxTimer) {
+					switch(optionShits[i.ID]) {
+						case 'Story Mode':
+							FlxG.switchState(new StoryMenuState());
+						case 'Freeplay':
+							FlxG.switchState(new FreeplayState());
+						case 'Credits':
+							// FlxG.switchState(new CreditsMain());
+						case 'Options':
+							FlxG.switchState(new OptionsMenu(false));
+					}
+				});
+			}
+		}
+		else {i.animation.play('idle', false);}
+	}
+}
+
+function onChangeItem(event:MenuChangeEvent) event.cancel(false);
+
+function onSelectItem(event:NameEvent) event.cancel(false);

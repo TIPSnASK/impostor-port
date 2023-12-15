@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-210" y="-90" camx="-185" camy="190">
+	<anim name="idle" anim="coryidle"/>
+	<anim name="singLEFT" anim="coryleft" x="-12" y="-2"/>
+	<anim name="singRIGHT" anim="coryright" x="-33" y="-2"/>
+	<anim name="singDOWN" anim="corydown" x="-4" y="-27"/>
+	<anim name="idle-loop" anim="coryidle" loop="true" indices="12,13"/>
+	<anim name="singLEFT-loop" anim="coryleft" x="-12" y="-2" loop="true" indices="7,8"/>
+	<anim name="singUP-loop" anim="coryup" x="-56" y="59" loop="true" indices="5,6,7,8"/>
+	<anim name="singRIGHT-loop" anim="coryright" x="-33" y="-2" loop="true" indices="7,8"/>
+	<anim name="singDOWN-loop" anim="corydown" x="-4" y="-27" loop="true" indices="7,8"/>
+	<anim name="singUP" anim="coryup" x="-56" y="59"/>
+</character>

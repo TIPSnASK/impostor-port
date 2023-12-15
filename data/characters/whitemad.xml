@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="90" flipx="true" camx="-130" camy="290" holdTime="6.1">
+	<anim name="singRIGHTmiss" anim="miss right" x="89" y="-264"/>
+	<anim name="singDOWNmiss" anim="miss down" x="257" y="-261"/>
+	<anim name="singLEFTmiss" anim="miss left" x="320" y="-300"/>
+	<anim name="singUPmiss" anim="miss up" x="-12" y="-300"/>
+	<anim name="idle" anim="idle" x="70" y="-280"/>
+	<anim name="singRIGHT" anim="right" x="98" y="-279"/>
+	<anim name="singDOWN" anim="down" x="237" y="-280"/>
+	<anim name="singLEFT" anim="left" x="336" y="-297"/>
+	<anim name="singUP" anim="up" x="-7" y="-301"/>
+</character>

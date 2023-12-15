@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="80" camx="-880" camy="-100">
+	<anim name="idle" anim="idle" x="365" y="30" loop="true"/>
+</character>

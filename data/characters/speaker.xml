@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character>
+	<anim name="danceRight" anim="speakers lonely" x="3" y="-305"/>
+	<anim name="danceLeft" anim="speakers lonely" x="3" y="-305"/>
+</character>

@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="350" flipx="true">
+	<anim name="danceLeft" anim="idle" indices="1,2,3,4,5,6,7,8,9"/>
+	<anim name="danceRight" anim="idle" indices="10,11,12,13,14,15,16,17,18,19,20"/>
+	<anim name="singDOWN" anim="down" x="-23" y="-34"/>
+	<anim name="singDOWNmiss" anim="m down" x="-20" y="-27"/>
+	<anim name="singUP" anim="up" x="41" y="21"/>
+	<anim name="singUPmiss" anim="m up" x="33" y="21"/>
+	<anim name="singRIGHTmiss" anim="m right" x="15" y="-3"/>
+	<anim name="singRIGHT" anim="right" x="14" y="-4"/>
+	<anim name="singLEFT" anim="left" x="74" y="-11"/>
+	<anim name="singLEFTmiss" anim="m left" x="74" y="-10"/>
+</character>

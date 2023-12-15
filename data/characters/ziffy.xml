@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="80" camy="110">
+	<anim name="idle" anim="ziffy idle" y="-40" fps="28"/>
+	<anim name="singLEFT" anim="ziffy left" x="55" y="-86" fps="28"/>
+	<anim name="singRIGHT" anim="ziffy right" x="3" y="-63" fps="28"/>
+	<anim name="singDOWN" anim="ziffy down" x="62" y="-88"/>
+	<anim name="singUP" anim="ziffy up" x="39" y="-32"/>
+</character>

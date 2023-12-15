@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-40" y="510" flipx="true" camx="70" camy="-120" scale="1.2">
+	<anim name="idle" anim="note idle" x="-5" y="104" loop="true"/>
+	<anim name="singLEFT" anim="note left" x="137" y="156"/>
+	<anim name="singDOWN" anim="note down" x="-34" y="95"/>
+	<anim name="singUP" anim="note up" x="35" y="203"/>
+	<anim name="singRIGHT" anim="note right" x="-121" y="152"/>
+	<anim name="singLEFTmiss" anim="miss left" x="137" y="152"/>
+	<anim name="singDOWNmiss" anim="miss down" x="-42" y="95"/>
+	<anim name="singUPmiss" anim="miss up" x="7" y="208"/>
+	<anim name="singRIGHTmiss" anim="miss right" x="-124" y="161"/>
+	<anim name="firstDeath" anim="BF dies" x="-14" y="119"/>
+	<anim name="deathLoop" anim="BF Dead Loop" x="-15" y="103" loop="true"/>
+	<anim name="deathConfirm" anim="BF Dead confirm" x="-15" y="176"/>
+</character>

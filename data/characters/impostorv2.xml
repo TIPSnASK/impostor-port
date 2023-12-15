@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="100" camx="-130" camy="290" holdTime="6.1">
+	<anim name="idle" anim="impostor idle" x="70" y="-280"/>
+	<anim name="singRIGHT" anim="impostor right" x="-82" y="-287"/>
+	<anim name="singDOWN" anim="impostor down" x="43" y="-303"/>
+	<anim name="singUP" anim="impostor up" x="30" y="-220"/>
+	<anim name="singLEFT" anim="imposter left" x="205" y="-281"/>
+	<anim name="hello" anim="Hello bitches" x="64" y="-284"/>
+</character>

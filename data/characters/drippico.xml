@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character>
+	<anim name="idle" anim="mongo" x="-1" y="-111"/>
+	<anim name="kill" anim="picomongo" x="291" y="415"/>
+	<anim name="idle-alt" anim="idleshit" x="-3" y="172" loop="true"/>
+	<anim name="singLEFT" anim="singLEFT" x="-2" y="181"/>
+	<anim name="singDOWN" anim="singDOWN" x="-2" y="71"/>
+	<anim name="singUP" anim="singUP" x="-2" y="115"/>
+	<anim name="singRIGHT" anim="singRIGHT" x="-2" y="186"/>
+</character>

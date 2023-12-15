@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="520" flipx="true" camx="70" camy="-120">
+	<anim name="idle" anim="idle" x="-5" y="103"/>
+	<anim name="singLEFT" anim="left" x="-14" y="104"/>
+	<anim name="singDOWN" anim="down" x="2" y="67"/>
+	<anim name="singUP" anim="up" x="-44" y="125"/>
+	<anim name="singRIGHT" anim="right" x="-37" y="97"/>
+	<anim name="singLEFTmiss" anim="mleft" x="-19" y="104"/>
+	<anim name="singDOWNmiss" anim="mdown" y="86"/>
+	<anim name="singUPmiss" anim="mup" x="-45" y="124"/>
+	<anim name="singRIGHTmiss" anim="mright" x="-35" y="105"/>
+	<anim name="firstDeath" anim="dead start" x="1" y="105"/>
+	<anim name="deathConfirm" anim="dead confirm" x="1" y="161"/>
+	<anim name="deathLoop" anim="dead loop" x="1" y="99" loop="true"/>
+	<anim name="hey" anim="v" x="-8" y="110"/>
+</character>

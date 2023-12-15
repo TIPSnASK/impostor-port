@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="350" flipx="true" scale="1.1">
+	<anim name="idle" anim="BF Idle Dance" x="-5"/>
+	<anim name="singLEFT" anim="LeftNote" x="-2" y="-1"/>
+	<anim name="singDOWN" anim="DownNote" x="4" y="-29"/>
+	<anim name="singUP" anim="UpNote" x="-16" y="15"/>
+	<anim name="singRIGHT" anim="RightNote" x="-13" y="-6"/>
+	<anim name="singLEFTmiss" anim="LeftMiss" x="22" y="-3"/>
+	<anim name="singDOWNmiss" anim="DownMiss" x="32" y="25"/>
+	<anim name="singUPmiss" anim="UpMiss" x="80" y="4"/>
+	<anim name="singRIGHTmiss" anim="RightMiss" x="82" y="3"/>
+</character>

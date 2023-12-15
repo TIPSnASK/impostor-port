@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-500">
+	<anim name="idle" anim="Parent Christmas Idle" x="2"/>
+	<anim name="singUP" anim="Parent Up Note Dad" x="-47" y="24"/>
+	<anim name="singDOWN" anim="Parent Down Note Dad" x="-31" y="-29"/>
+	<anim name="singLEFT" anim="Parent Left Note Dad" x="-30" y="16"/>
+	<anim name="singRIGHT" anim="Parent Right Note Dad" x="-1" y="-23"/>
+	<anim name="singRIGHT-alt" anim="Parent Right Note Mom" x="-1" y="-24"/>
+	<anim name="singDOWN-alt" anim="Parent Down Note Mom" x="-30" y="-27"/>
+	<anim name="singLEFT-alt" anim="Parent Left Note Mom" x="-30" y="15"/>
+	<anim name="singUP-alt" anim="Parent Up Note Mom" x="-47" y="24"/>
+	<anim name="idle-loop" anim="Parent Christmas Idle" x="2" loop="true" indices="10,11,12,13"/>
+	<anim name="singUP-loop" anim="Parent Up Note Dad" x="-47" y="24" loop="true" indices="10,11,12,13"/>
+	<anim name="singLEFT-loop" anim="Parent Left Note Dad" x="-30" y="16" loop="true" indices="12,13,14,15"/>
+	<anim name="singDOWN-loop" anim="Parent Down Note Dad" x="-31" y="-29" loop="true" indices="11,12,13,14"/>
+	<anim name="singRIGHT-loop" anim="Parent Right Note Dad" x="-1" y="-23" loop="true" indices="12,13,14,15"/>
+	<anim name="singRIGHT-alt-loop" anim="Parent Right Note Mom" x="-1" y="-24" loop="true" indices="11,12,13,14"/>
+	<anim name="singUP-alt-loop" anim="Parent Up Note Mom" x="-47" y="24" loop="true" indices="10,11,12,13"/>
+	<anim name="singLEFT-alt-loop" anim="Parent Left Note Mom" x="-30" y="15" loop="true" indices="11,12,13,14"/>
+	<anim name="singDOWN-alt-loop" anim="Parent Down Note Mom" x="-30" y="-27" loop="true" indices="11,12,13,14"/>
+</character>

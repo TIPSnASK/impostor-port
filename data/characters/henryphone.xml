@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="90" flipx="true">
+	<anim name="singDOWN" anim="Henry Down" x="172" y="-58"/>
+	<anim name="singDOWNmiss" anim="Henry Miss Down" x="154" y="-48"/>
+	<anim name="singUP" anim="Henry Up" x="54" y="87"/>
+	<anim name="singLEFT" anim="Henry Left" x="179" y="62"/>
+	<anim name="singRIGHT" anim="Henry Right" x="83" y="20"/>
+	<anim name="idle" anim="Henry Idle" x="10" y="90"/>
+	<anim name="singLEFTmiss" anim="Henry Miss Left" x="192"/>
+	<anim name="singRIGHTmiss" anim="Henry Miss Right" x="68" y="-32"/>
+	<anim name="singUPmiss" anim="Henry Miss Up" x="55" y="83"/>
+	<anim name="firstDeath" anim="henry dies" x="75" y="49"/>
+	<anim name="deathLoop" anim="Henry Death loop" x="24" y="44" loop="true"/>
+	<anim name="deathConfirm" anim="Henry death enter" x="86" y="44" loop="true"/>
+	<anim name="intro" anim="Henry Greatest Plan Intro" x="5" y="312"/>
+</character>

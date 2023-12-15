@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="130" camx="30" camy="230" holdTime="6.1">
+	<anim name="singRIGHT" anim="green right" x="-89" y="-229"/>
+	<anim name="singDOWN" anim="green down" x="46" y="-241"/>
+	<anim name="singLEFT" anim="green left" x="164" y="-216"/>
+	<anim name="singUP" anim="green up" x="61" y="-96"/>
+	<anim name="bopL" anim="silly dance left" x="-77" y="-201"/>
+	<anim name="bopR" anim="silly dance right" x="-80" y="-201"/>
+	<anim name="notice" anim="green notice" x="92" y="-218"/>
+	<anim name="handbye" anim="green unwave" x="89" y="-218"/>
+	<anim name="danceLeft" anim="silly dance left" x="-77" y="-201"/>
+	<anim name="danceRight" anim="silly dance right" x="-80" y="-201"/>
+	<anim name="wave" anim="green wave" x="110" y="-218" loop="true"/>
+</character>

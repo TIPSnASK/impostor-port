@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="160" camy="200" holdTime="10">
+	<anim name="idle" anim="yellow idle" x="-40" y="-150"/>
+	<anim name="first" anim="yellow reaction first" x="29" y="-75"/>
+	<anim name="second" anim="yellow reaction second" x="16" y="-81"/>
+	<anim name="third" anim="yellow reaction third" x="29" y="-75"/>
+</character>

@@ -1,20 +1,20 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character isPlayer="true" y="350" icon="bf" flipX="true">
-	<anim name="idle" anim="idle" fps="24" loop="false" x="-5" y="0"/>
-	<anim name="singLEFT" anim="left" fps="24" loop="false" x="1" y="-1"/>
-	<anim name="singDOWN" anim="down" fps="24" loop="false" x="8" y="-37"/>
-	<anim name="singUP" anim="up" fps="24" loop="false" x="-66" y="59"/>
-	<anim name="singLEFTmiss" anim="MISS 0left" fps="24" loop="false" x="-18" y="9"/>
-	<anim name="singDOWNmiss" anim="MISS 1down" fps="24" loop="false" x="-15" y="-19"/>
-	<anim name="singUPmiss" anim="MISS 2up" fps="24" loop="false" x="-36" y="27"/>
-	<anim name="singRIGHTmiss" anim="MISS 3right" fps="24" loop="false" x="-44" y="22"/>
-	<anim name="idlePost" anim="idle" fps="24" loop="true" x="-5" y="0" indices="[8,9,10,11,12,13,14,15,16,17,18]"/>
-	<anim name="singLEFT-hold" anim="left" fps="24" loop="true" x="2" y="0" indices="[3,4,5,6]"/>
-	<anim name="singDOWN-hold" anim="down" fps="24" loop="true" x="8" y="-37" indices="[3,4,5,6]"/>
-	<anim name="singRIGHT" anim="right" fps="24" loop="false" x="-63" y="-5"/>
-	<anim name="singRIGHT-hold" anim="right" fps="24" loop="true" x="-64" y="-5" indices="[3,4,5,6]"/>
-	<anim name="singUP-hold" anim="up" fps="24" loop="true" x="-66" y="59" indices="[3,4,5,6]"/>
-	<anim name="firstDeath" anim="dead 0START" fps="24" loop="false" x="636" y="254"/>
-	<anim name="deathConfirm" anim="dead 2END" fps="24" loop="false" x="636" y="-171"/>
-	<anim name="deathLoop" anim="dead 1MID" fps="24" loop="true" x="636" y="-288"/>
+<character y="350" flipx="true" camx="500" camy="-100">
+	<anim name="idle" anim="idle" x="-5"/>
+	<anim name="singLEFT" anim="left" x="1" y="-1"/>
+	<anim name="singDOWN" anim="down" x="8" y="-37"/>
+	<anim name="singUP" anim="up" x="-66" y="59"/>
+	<anim name="singLEFTmiss" anim="MISS 0left" x="-18" y="9"/>
+	<anim name="singDOWNmiss" anim="MISS 1down" x="-15" y="-19"/>
+	<anim name="singUPmiss" anim="MISS 2up" x="-36" y="27"/>
+	<anim name="singRIGHTmiss" anim="MISS 3right" x="-44" y="22"/>
+	<anim name="idle-loop" anim="idle" x="-5" loop="true" indices="8,9,10,11,12,13,14,15,16,17,18"/>
+	<anim name="singLEFT-loop" anim="left" x="2" loop="true" indices="3,4,5,6"/>
+	<anim name="singDOWN-loop" anim="down" x="8" y="-37" loop="true" indices="3,4,5,6"/>
+	<anim name="singRIGHT" anim="right" x="-63" y="-5"/>
+	<anim name="singRIGHT-loop" anim="right" x="-64" y="-5" loop="true" indices="3,4,5,6"/>
+	<anim name="singUP-loop" anim="up" x="-66" y="59" loop="true" indices="3,4,5,6"/>
+	<anim name="firstDeath" anim="dead 0START" x="636" y="254"/>
+	<anim name="deathConfirm" anim="dead 2END" x="636" y="-171"/>
+	<anim name="deathLoop" anim="dead 1MID" x="636" y="-288" loop="true"/>
 </character>

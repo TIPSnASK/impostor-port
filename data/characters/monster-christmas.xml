@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="130">
+	<anim name="idle" anim="monster idle" x="1"/>
+	<anim name="singUP" anim="monster up note" x="-20" y="50"/>
+	<anim name="singLEFT" anim="Monster left note" x="-30"/>
+	<anim name="singRIGHT" anim="Monster Right note" x="-51"/>
+	<anim name="singDOWN" anim="monster down" x="-40" y="-94"/>
+	<anim name="singUP-loop" anim="monster up note" x="-20" y="50" loop="true" indices="21,22,23"/>
+	<anim name="singDOWN-loop" anim="monster down" x="-40" y="-94" loop="true" indices="27,28,29"/>
+	<anim name="singRIGHT-loop" anim="Monster Right note" x="-51" loop="true" indices="12,13,14"/>
+	<anim name="singLEFT-loop" anim="Monster left note" x="-30" loop="true" indices="17,18,19"/>
+	<anim name="idle-loop" anim="monster idle" x="1" loop="true" indices="12,13,14"/>
+</character>

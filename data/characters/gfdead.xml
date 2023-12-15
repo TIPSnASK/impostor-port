@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="40" y="350">
+	<anim name="cheer" anim="GF Cheer" x="3"/>
+	<anim name="singLEFT" anim="GF left note" y="-19"/>
+	<anim name="singDOWN" anim="GF Down Note" y="-20"/>
+	<anim name="singUP" anim="GF Up Note" y="4"/>
+	<anim name="singRIGHT" anim="GF Right Note" y="-20"/>
+	<anim name="sad" anim="gf sad" x="-2" y="-21" indices="0,1,2,3,4,5,6,7,8,9,10,11,12"/>
+	<anim name="hairBlow" anim="GF Dancing Beat Hair blowing" x="45" y="-8" loop="true" indices="0,1,2,3"/>
+	<anim name="hairFall" anim="GF Dancing Beat Hair Landing" y="-9" indices="0,1,2,3,4,5,6,7,8,9,10,11"/>
+	<anim name="scared" anim="GF FEAR" x="-2" y="-17" loop="true"/>
+	<anim name="danceLeft" anim="gf speaker" y="-9"/>
+	<anim name="danceRight" anim="gf speaker" y="-9"/>
+</character>

@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="180" y="80" camx="-880" camy="-100">
+	<anim name="idle" anim="black"/>
+	<anim name="kill1" anim="black kill 1"/>
+	<anim name="kill2" anim="black kill 2" x="39" y="-68"/>
+	<anim name="kill3" anim="black kill 3" x="167" y="306"/>
+</character>

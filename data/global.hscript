@@ -1,0 +1,3 @@
+function new()
+	if (FlxG.save.data.flashingLights == null)
+		FlxG.save.data.flashingLights = true;

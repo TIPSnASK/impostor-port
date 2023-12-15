@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-100" y="110">
+	<anim name="singDOWN" anim="Cval Down" x="-6" y="28"/>
+	<anim name="singUP" anim="Cval Up" x="8" y="126"/>
+	<anim name="singRIGHT" anim="Cval Right" x="-17" y="89"/>
+	<anim name="singLEFT" anim="Cval Left" x="32" y="80"/>
+	<anim name="idle" anim="Cval Idle" y="80"/>
+	<anim name="pip" anim="Cval Hi pip" x="100" y="80"/>
+</character>

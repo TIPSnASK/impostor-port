@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character camx="-300" camy="160" holdTime="6.1" scale="0.9">
+	<anim name="idle" anim="Dave Idle" x="160" fps="12"/>
+	<anim name="singRIGHT" anim="Dave Right" x="159" y="3" fps="12"/>
+	<anim name="singLEFT" anim="Dave Left" x="156" y="1" fps="12"/>
+	<anim name="singUP" anim="Dave Up" x="160" y="5" fps="12"/>
+	<anim name="singDOWN" anim="Dave Down" x="163" y="1" fps="12"/>
+	<anim name="die" anim="Dave Death" x="159" y="-3" fps="12"/>
+</character>

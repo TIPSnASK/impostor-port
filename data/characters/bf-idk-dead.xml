@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character antialiasing="false" x="40" y="470" flipx="true" camx="-80" camy="390" holdTime="10" scale="0.8">
+	<anim name="firstDeath" anim="first death" fps="15"/>
+	<anim name="deathLoop" anim="first death" fps="15" indices="17,18"/>
+	<anim name="deathConfirm" anim="first death" fps="15" indices="17,18"/>
+</character>

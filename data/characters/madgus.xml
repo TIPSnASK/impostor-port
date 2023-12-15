@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="210" y="430" camx="200" camy="-200">
+	<anim name="singRIGHT" anim="right" x="90" y="50" fps="12"/>
+	<anim name="danceLeft" anim="DANCELEFT" x="50" y="50" fps="12"/>
+	<anim name="danceRight" anim="DANCERIGHT" x="39" y="50" fps="12"/>
+	<anim name="singLEFT" anim="left" x="169" y="50" fps="12"/>
+	<anim name="singDOWN" anim="down" x="85" y="22" fps="12"/>
+	<anim name="singUP" anim="up" x="128" y="64" fps="12"/>
+	<anim name="bwah" anim="scream" x="156" y="59" fps="12"/>
+</character>

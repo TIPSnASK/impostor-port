@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character antialiasing="false" x="-17" y="383" flipx="true" camx="180" camy="-140" scale="6">
+	<anim name="idle" anim="idle" x="10"/>
+	<anim name="singLEFT" anim="left" x="10"/>
+	<anim name="singDOWN" anim="down" x="10"/>
+	<anim name="singUP" anim="up" x="10"/>
+	<anim name="singRIGHT" anim="right" x="10"/>
+	<anim name="singLEFTmiss" anim="missleft" x="10"/>
+	<anim name="singDOWNmiss" anim="missdown" x="10"/>
+	<anim name="singUPmiss" anim="missup" x="10"/>
+	<anim name="singRIGHTmiss" anim="missright" x="10"/>
+	<anim name="shoot" anim="shoot" x="10"/>
+</character>

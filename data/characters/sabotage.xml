@@ -1,15 +1,9 @@
-<!DOCTYPE codename-engine-character>
-<character x="-50" y="135" icon="impostor" camx="-70" camy="290" scale="1">
-	<anim x="80" name="idle" anim="impostor idle" y="-270"/>
-
-	<anim x="185" name="singLEFT" anim="impostor left" y="-285"/>
-
-	<anim x="42" name="singDOWN" anim="impostor down" y="-242"/>
-
-	<anim x="7" name="singUP" anim="impostor up" y="-243"/>
-
-	<anim x="29" name="singRIGHT" anim="impostor right" y="-287"/>
-
-	<anim x="82" name="hey" anim="red look" y="-270"/>
-
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character y="100" camx="-130" camy="290" holdTime="6.1">
+	<anim name="idle" anim="impostor idle" x="80" y="-270"/>
+	<anim name="singRIGHT" anim="impostor right" x="17" y="-291"/>
+	<anim name="singDOWN" anim="impostor down" x="39" y="-235"/>
+	<anim name="singUP" anim="impostor up" x="-16" y="-234"/>
+	<anim name="singLEFT" anim="impostor left" x="208" y="-289"/>
+	<anim name="hey" anim="red look" x="82" y="-270"/>
 </character>

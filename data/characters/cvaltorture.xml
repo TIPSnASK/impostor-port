@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-60" y="-70" flipx="true" camx="-610" camy="90">
+	<anim name="singDOWN" anim="cval down" x="21" y="67"/>
+	<anim name="singUP" anim="cval up" x="-12" y="102"/>
+	<anim name="singRIGHT" anim="cval right" x="-60" y="89"/>
+	<anim name="idle" anim="cvale" y="80"/>
+	<anim name="idle-LOOP" anim="cvale" y="80" loop="true" indices="10,11,12,13"/>
+	<anim name="singLEFT" anim="cval left" x="87" y="97"/>
+	<anim name="singLEFT-loop" anim="cval left" x="87" y="97" loop="true" indices="10,11,12,13"/>
+	<anim name="singRIGHT-loop" anim="cval right" x="-60" y="89" loop="true" indices="10,11,12,13"/>
+	<anim name="singUP-loop" anim="cval up" x="-12" y="102" loop="true" indices="10,11,12,13"/>
+	<anim name="singDOWN-loop" anim="cval down" x="21" y="67" loop="true" indices="10,11,12,13"/>
+	<anim name="GETOUT" anim="cval rozebud" x="439" y="314"/>
+</character>

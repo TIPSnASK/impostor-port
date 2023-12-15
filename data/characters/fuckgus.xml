@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="144" y="436" camx="-270" camy="10">
+	<anim name="singDOWN" anim="down" x="54" y="29" fps="12"/>
+	<anim name="singUP" anim="up" x="95" y="69" fps="12"/>
+	<anim name="danceLeft" anim="idle" y="56" fps="12"/>
+	<anim name="danceRight" anim="DANCERIGHT" x="-11" y="56" fps="12"/>
+	<anim name="singLEFT" anim="left" x="130" y="54" fps="12"/>
+	<anim name="singRIGHT" anim="right" x="39" y="54" fps="12"/>
+	<anim name="FUCK" anim="FUUUUCK" x="109" y="66" fps="12"/>
+	<anim name="FUCKlooper" anim="Ye" x="-21" y="57" fps="12" loop="true"/>
+</character>

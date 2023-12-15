@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-200" camx="60" camy="60" holdTime="6.2" scale="0.8">
+	<anim name="singLEFT" anim="left"/>
+	<anim name="singDOWN" anim="down"/>
+	<anim name="singUP" anim="up"/>
+	<anim name="singRIGHT" anim="right"/>
+	<anim name="idle" anim="idle"/>
+	<anim name="idle-loop" anim="idle" loop="true" indices="10,11,12,13"/>
+	<anim name="singLEFT-alt" anim="left"/>
+	<anim name="singDOWN-alt" anim="down"/>
+	<anim name="singUP-alt" anim="up"/>
+	<anim name="singRIGHT-alt" anim="right"/>
+	<anim name="oh" anim="oh"/>
+	<anim name="perfect" anim="perfect"/>
+</character>

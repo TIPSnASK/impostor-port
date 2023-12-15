@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-200" y="95" camx="-610" camy="90">
+	<anim name="idle" anim="piple" y="80"/>
+	<anim name="singDOWN" anim="pip down" x="19" y="71"/>
+	<anim name="singUP" anim="pip up" x="23" y="112"/>
+	<anim name="singRIGHT" anim="pip righ" x="-8" y="86"/>
+	<anim name="singLEFT" anim="pip lef" x="56" y="89"/>
+	<anim name="rozebud?" anim="piprozebud" x="10" y="121"/>
+</character>

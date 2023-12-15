@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="100" y="60" camx="-160">
+	<anim name="danceLeft" anim="loggfriend" loop="true"/>
+	<anim name="danceRight" anim="loggfriend" loop="true"/>
+</character>

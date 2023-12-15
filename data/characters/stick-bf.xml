@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="70" y="320" flipx="true">
+	<anim name="hey" anim="stick hey" x="-24" y="7"/>
+	<anim name="idle" anim="stick idle" x="-5"/>
+	<anim name="singLEFT" anim="stick note left" x="37" y="8"/>
+	<anim name="singLEFTmiss" anim="note left miss" x="36" y="78"/>
+	<anim name="singDOWN" anim="stick note down" x="-12" y="-21"/>
+	<anim name="singDOWNmiss" anim="note down miss" x="-5" y="56" indices="0,0"/>
+	<anim name="singUPmiss" anim="note up miss" x="-34" y="110"/>
+	<anim name="singUP" anim="stick note up" x="-34" y="16"/>
+	<anim name="singRIGHT" anim="stick note right" x="66" y="4"/>
+	<anim name="singRIGHTmiss" anim="note right miss" x="-29" y="88"/>
+</character>

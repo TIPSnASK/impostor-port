@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-30" y="30" camx="-260" camy="110" holdTime="6.1">
+	<anim name="idle" anim="Ellie Idle" x="-30" y="-90"/>
+	<anim name="singLEFT" anim="Ellie Left" x="214" y="-105"/>
+	<anim name="singDOWN" anim="Ellie Down" x="-80" y="-151"/>
+	<anim name="singUP" anim="Ellie Up" x="-91" y="-39"/>
+	<anim name="singRIGHT" anim="Ellie Right" x="-39" y="-30"/>
+	<anim name="enter" anim="Ellie Enter Animation" x="-30" y="973"/>
+	<anim name="armed" anim="Ellie React Arm" x="-18" y="-90"/>
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="-110" y="160" camx="10" camy="230" holdTime="6.1" scale="1.1">
+	<anim name="danceLeft" anim="jelqer dance left" x="-3" y="-153"/>
+	<anim name="danceRight" anim="jelqer dance right" x="-23" y="-153"/>
+	<anim name="singDOWN" anim="jelqer down" x="-85" y="-213"/>
+	<anim name="singUP" anim="jelqer up" x="-122" y="-116"/>
+	<anim name="singRIGHT" anim="jelqer right" x="-67" y="-188"/>
+	<anim name="singLEFT" anim="jelqer left" x="30" y="-150"/>
+</character>

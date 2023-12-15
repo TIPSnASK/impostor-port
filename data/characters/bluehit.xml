@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
+<character x="40" y="100" flipx="true" camx="80" camy="200" holdTime="10" scale="0.8">
+	<anim name="singRIGHT" anim="hit right" x="17" y="-302"/>
+	<anim name="singDOWN" anim="hit down" x="55" y="-331"/>
+	<anim name="singLEFT" anim="hit left" x="40" y="-212"/>
+	<anim name="singUP" anim="hit up" x="24" y="-195"/>
+	<anim name="singRIGHT-loop" anim="hit right" x="17" y="-302" loop="true" indices="2"/>
+	<anim name="singDOWN-loop" anim="hit down" x="55" y="-331" loop="true" indices="2"/>
+	<anim name="singLEFT-loop" anim="hit left" x="40" y="-212" loop="true" indices="2"/>
+	<anim name="singUP-loop" anim="hit up" x="24" y="-195" loop="true" indices="2"/>
+	<anim name="idle" anim="hit idle" x="41" y="-308"/>
+</character>
