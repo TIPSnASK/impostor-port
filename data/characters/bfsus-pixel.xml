@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character antialiasing="false" x="-17" y="383" flipx="true" camx="180" camy="-140" scale="6">
+<character antialiasing="false" x="-17" y="383" flipX="true" camx="180" camy="-140" scale="6" isPlayer="true">
 	<anim name="idle" anim="idle" x="10"/>
 	<anim name="singLEFT" anim="left" x="10"/>
 	<anim name="singDOWN" anim="down" x="10"/>

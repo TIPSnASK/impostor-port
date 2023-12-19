@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character y="350" flipx="true">
+<character y="350" flipX="true" isPlayer="true">
 	<anim name="idle" anim="BF idle dance afraid"/>
 	<anim name="idle-loop" anim="BF idle dance afraid" loop="true" indices="9,10,11,12,13,14,15"/>
 	<anim name="singLEFTmiss" anim="miss" x="-27" y="-6"/>

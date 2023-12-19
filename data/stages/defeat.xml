@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.6" name="defeat" folder="stages/defeat" bfcam="750, 500" dadcam="750, 500" defaultDad="black" defaultBF="bf-defeat-normal">
+<stage zoom="0.6" name="defeat" folder="stages/defeat">
     <sprite name="defeatthing" sprite="defeat" x="-400" y="-150" scale="1.3" scroll="0.8">
         <anim name="bop" anim="defeat"/>
     </sprite>
@@ -16,11 +16,9 @@
         <property name="alpha" type="float" value="0"/>
     </sprite>
 
-    <girlfriend>
-        <property name="visible" type="bool" value="false"/>
-    </girlfriend>
-    <dad x="210" y="95"/>
-    <boyfriend x="1000" y="100"/>
+    <girlfriend/>
+    <dad x="210" y="95" camx="750" camy="500" zoom="0.6"/>
+    <boyfriend x="1000" y="100" camx="750" camy="500" zoom="0.6"/>
     
     <sprite name="bodiesfront" sprite="deadFG" x="-2830" y="0" scale="0.4" scrollx="0.5">
         <property name="alpha" type="float" value="0"/>

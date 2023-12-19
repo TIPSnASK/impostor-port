@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character y="350" flipx="true">
+<character y="350" flipX="true" isPlayer="true">
 	<anim name="danceLeft" anim="idle" indices="1,2,3,4,5,6,7,8,9"/>
 	<anim name="danceRight" anim="idle" indices="10,11,12,13,14,15,16,17,18,19,20"/>
 	<anim name="singDOWN" anim="down" x="-23" y="-34"/>

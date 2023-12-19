@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character y="350" flipx="true">
+<character y="350" flipX="true" isPlayer="true">
 	<anim name="firstDeath" anim="death" x="-15" y="-10"/>
 	<anim name="deathLoop" anim="loop death" x="-15" y="-15" loop="true"/>
 	<anim name="deathConfirm" anim="confirm death" x="-15" y="29"/>

@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character y="350" flipx="true">
+<character y="350" flipX="true" isPlayer="true">
 	<anim name="idle" anim="BF idle dance" x="-5"/>
 	<anim name="singDOWN" anim="BF NOTE DOWN0" x="-21" y="-51"/>
 	<anim name="singUP" anim="BF NOTE UP0" x="1" y="30"/>

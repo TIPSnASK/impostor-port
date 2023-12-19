@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character> <!-- Made with WizardMantis's Character Converter -->
-<character x="70" y="320" flipx="true">
+<character x="70" y="320" flipX="true" isPlayer="true">
 	<anim name="hey" anim="stick hey" x="-24" y="7"/>
 	<anim name="idle" anim="stick idle" x="-5"/>
 	<anim name="singLEFT" anim="stick note left" x="37" y="8"/>
